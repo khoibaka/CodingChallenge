@@ -18,13 +18,13 @@ class H1Handler {
 
 class Descriptionhandler{
   element(element) {
-    element.replace("<p id='description'>COVID 19 hit me hard with my internship got cancelled. After seeing the course of actions that aim to help students get through this dark time, I truly admire Cloudflare and would like to contribute to the growth of Cloudflare</p>", { html: true })
+    element.replace("<p id='description'>COVID-19 hit me hard with my internship got cancelled. Luckily I found Cloudflare generously offering new internship positions. After seeing the course of actions that aim to help students get through this dark time, I truly admire Cloudflare and would like to contribute to the growth of Cloudflare</p>", { html: true })
   }
 }
 
 class UrlHandler{
   element(element){
-    element.replace("<a id='url' href='https://khoibaka.github.io/InteractiveResume' style='text-align: center; background-color: teal; margin: 0 auto; border-radius: 5px'>Please have a look at my Website</a>",{html:true})
+    element.replace("<a id='url' href='https://khoibaka.github.io/InteractiveResume' style='text-align: center; background-color: teal; color: white; margin: 0 auto; border-radius: 5px; padding: 5px 5px'>Please have a look at my Website</a>",{html:true})
   }
 }
 
