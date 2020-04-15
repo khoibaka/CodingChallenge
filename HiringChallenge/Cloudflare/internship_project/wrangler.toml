@@ -1,0 +1,6 @@
+name = "internship_project"
+type = "webpack"
+account_id = "61aaea66268a45751cc1eececaec97a9"
+workers_dev = true
+route = ""
+zone_id = ""
